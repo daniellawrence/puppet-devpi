@@ -1,0 +1,12 @@
+name          'mhs-devpi'
+version       '0.0.1'
+source        'http://github.com/daniellawrence/puppet-devpi'
+author        'mhs'
+license       'Apache License, Version 2.0'
+summary       'Install devpi pypi.python.org mirror'
+description   'Install devpi pypi.python.org mirror'
+project_page  'http://github.com/daniellawrence/puppet-devpi'
+
+dependency 'puppetlabs/stdlib'
+dependency 'stankevich/python'
+dependency 'jfryman/puppet-nginx'
