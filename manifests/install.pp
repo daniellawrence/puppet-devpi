@@ -5,7 +5,7 @@ class devpi::install {
 
   # If we are going to use this module to manage nginx.
   # Then setup nginx and the upstream into the devpi service
-  if ($devpi::params::manage_nginx == true)
+  if ($devpi::params::manage_nginx == true) {
 
     class {'nginx':
     }
